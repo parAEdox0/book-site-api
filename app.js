@@ -5,7 +5,6 @@ import express from "express";
 import mongoose, { mongo } from "mongoose";
 import dotenv from "dotenv";
 import router from "./routes/books.js";
-// import cors from "cors";
 
 // defing app
 const app = express();
@@ -17,7 +16,6 @@ const atlas_uri = process.env.MONGO_URI;
 
 
 // middlewares
-app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
