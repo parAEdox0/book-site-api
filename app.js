@@ -5,7 +5,7 @@ import express from "express";
 import mongoose, { mongo } from "mongoose";
 import dotenv from "dotenv";
 import router from "./routes/books.js";
-import cors from "cors";
+// import cors from "cors";
 
 // defing app
 const app = express();

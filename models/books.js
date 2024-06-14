@@ -26,8 +26,7 @@ const bookSchema = new Schema({
     },
     coverImage: {
         type: String,
-        trim: true,
-        default: ""
+        trim: true
     },
     rating: {
         type: Number,
